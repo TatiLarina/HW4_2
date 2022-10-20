@@ -6,6 +6,6 @@ public class Main {
         BmiService service = new BmiService();
         double imt = service.calculate(mass, height);
         System.out.print("Ваш ИМТ: ");
-        System.out.printf("%.1f",imt);
+        System.out.printf("%.1f", imt);
     }
 }
